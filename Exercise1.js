@@ -72,8 +72,7 @@ SET "student nail" to any value
 WHILE "student count" LESS THAN 41
     INCREMENT "student count"
 
-    DETERMINE student nail
-    IF nail is long THEN
+    IF student nail is long THEN
         DO Punish the student
     ELSE
         DO Praise the student
