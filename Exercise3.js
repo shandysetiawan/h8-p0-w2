@@ -1,22 +1,17 @@
-var buttonPushed = 1;
-switch (buttonPushed) {
-  case 1: {
-    console.log("matikan TV!");
-    break;
-  }
-  case 2: {
-    console.log("turunkan volume TV!");
-    break;
-  }
-  case 3: {
-    console.log("tingkatkan volume TV!");
-    break;
-  }
-  case 4: {
-    console.log("matikan suara TV!");
-    break;
-  }
-  default: {
-    console.log("Tidak terjadi apa-apa");
-  }
+var nama = "Ucup";
+var peran = "";
+
+if (nama == "Ucup" && peran == 0) {
+  console.log(`Halo ${nama}, pilih peranmu untuk memulai game!`);
+} else if (peran == "Ksatria") {
+  console.log(`Selamat datang di Dunia Proxytia, ${nama}
+Halo Ksatria ${nama} kamu dapat menyerang dengan senjatamu!`);
+} else if (peran == "Tabib") {
+  console.log(`Selamat datang di Dunia Proxytia, ${nama}
+Halo Tabib ${nama}, kamu akan membantu temanmu yang terluka`);
+} else if (peran == "Penyihir") {
+  console.log(`Selamat datang di Dunia Proxytia, ${nama}
+Halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`);
+} else {
+  console.log(`Nama harus diisi!`);
 }
