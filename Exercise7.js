@@ -7,17 +7,26 @@
 //   rows1--;
 // }
 
-// for (rows2 = 0; i < 6; i++) {
-//   for (j = 0; j < 4; j++) {
-//     varOne++;
-//   }
-// }
-// console.log(varOne);
-
 //2.
 
-for (let rows1 = 5; rows1 <= 5; rows1++) {
-  for (let j = 0; j < 5; j++) {
-    console.log(rows1 + j + "*");
-  }
-}
+// var rows2 = 5;
+
+// for (var i = 0; i < rows2; i++) {
+//   var temp = "";
+//   for (var j = 0; j < rows2; j++) {
+//     temp = temp + "*";
+//   }
+//   console.log(temp);
+// }
+
+//3.
+
+// var rows3 = 5;
+// var temp3 = "";
+
+// for (var i = 0; i < rows3; i++) {
+//   for (var i = 0; i < rows3; i++) {
+//     temp3 += "*";
+//     console.log(temp3);
+//   }
+// }
