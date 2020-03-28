@@ -1,10 +1,9 @@
 function konversiMenit(menit) {
-  var a = menit;
-  var b = a / 60;
-  var c = Math.floor(b);
-  var d = (b - c) * 60;
-  var e = (d < 10 ? "0" : "") + Math.round(d);
-  return `${c}:${e}`;
+  var hour = menit / 60;
+  var bulatHour = Math.floor(hour);
+  var bulatMinute = (hour - bulatHour) * 60;
+  var result = (bulatMinute < 10 ? "0" : "") + Math.round(bulatMinute);
+  return `${bulatHour}:${result}`;
 }
 
 // TEST CASES
