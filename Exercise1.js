@@ -10,7 +10,7 @@ SET "mass of objects" to 600
 SET "acceleration of objects" to 2
 SET "resultant force" without any value
 
-CALCULATE "mass of objects" times "acceleration of objects"
+CALCULATE "mass of objects" MULTIPLY "acceleration of objects"
 SET "resultant force" value with calculation result
 
 DISPLAY "resultant force"
