@@ -1,21 +1,21 @@
-//1.
-// function shoutOut() {
-//   return "Halo Function!";
-// }
-// console.log(shoutOut());
+1;
+function shoutOut() {
+  return "Halo Function!";
+}
+console.log(shoutOut());
 
-//2.
-// function calculateMultiply() {
-//   return num1 * num2;
-// }
+2;
+function calculateMultiply() {
+  return num1 * num2;
+}
 
-// var num1 = 5;
-// var num2 = 6;
+var num1 = 5;
+var num2 = 6;
 
-// var hasilPerkalian = calculateMultiply(num1, num2);
-// console.log(hasilPerkalian);
+var hasilPerkalian = calculateMultiply(num1, num2);
+console.log(hasilPerkalian);
 
-//3.
+3;
 function processSentence() {
   return `Nama saya ${name}, umur saya ${age}, alamat saya di ${address}, dan saya punya hobby yaitu ${hobby}`;
 }
